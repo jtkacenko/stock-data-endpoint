@@ -1,0 +1,24 @@
+{
+  "name": "endpoint",
+  "version": "1.0.0",
+  "description": "The application will find the price data of that stock at that date and will convert the numbers to supplied currency using the same days exchange rate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon src/index.js"
+  },
+  "author": "jtkacenko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "winston": "^3.8.1",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}

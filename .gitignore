@@ -1,0 +1,9 @@
+
+# Node artifact files
+node_modules/
+
+#log files
+logs/
+
+#Environment variables
+#.env
